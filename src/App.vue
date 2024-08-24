@@ -8,6 +8,8 @@ export default {
 
 <template>
     <AppHeader />
+    <!-- pagine -->
+    <RouterView />
 </template>
 
 <style lang="scss">
