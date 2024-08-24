@@ -33,6 +33,7 @@ header {
     padding: 10px 20px;
     color: orange;
     height: 80px;
+    border-bottom: 1px solid currentColor;
 }
 
 nav,
