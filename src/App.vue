@@ -8,8 +8,10 @@ export default {
 
 <template>
     <AppHeader />
-    <!-- pagine -->
-    <RouterView />
+    <main>
+        <!-- pagine -->
+        <RouterView />
+    </main>
 </template>
 
 <style lang="scss">

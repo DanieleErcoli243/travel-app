@@ -1,9 +1,9 @@
 // importo le funzioni da vue-router
 import { createRouter, createWebHistory } from 'vue-router';
 // importo i componenti che fungono da pagine
-import HomePage from '../../components/pages/HomePage.vue';
-import DetailPage from '../../components/pages/DetailPage.vue';
-import NotFoundPage from '../../components/pages/NotFoundPage.vue';
+import HomePage from '../../../components/pages/HomePage.vue';
+import DetailPage from '../../../components/pages/DetailPage.vue';
+import NotFoundPage from '../../../components/pages/NotFoundPage.vue';
 
 // definisco le rotte
 export default createRouter({
