@@ -8,7 +8,7 @@ export default {
     <header>
         <nav>
             <figure>
-                <img src="../img/travel-app-logo.png" alt="valigia che si apre in un diario">
+                <img src="../img/travel-app-logo.png" alt="icona rappresentante una valigia che si apre in un diario">
             </figure>
             <h1>Travel App</h1>
         </nav>
