@@ -1,11 +1,13 @@
 <script>
+import AppHeader from './components/AppHeader.vue'
 export default {
-    name: 'Travel App'
+    name: 'Travel App',
+    components: { AppHeader }
 }
 </script>
 
 <template>
-
+    <AppHeader />
 </template>
 
 <style lang="scss">
