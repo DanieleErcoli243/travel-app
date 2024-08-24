@@ -14,10 +14,10 @@ export default {
 <template>
     <AppLoader v-if="store.isLoading" />
     <AppHeader />
-    <main>
+    <main v-show="!store.isLoading">
         <!-- pagine -->
         <RouterView />
-    </main>
+    </main v-show="!store.isLoading">
 </template>
 
 <style lang="scss">
